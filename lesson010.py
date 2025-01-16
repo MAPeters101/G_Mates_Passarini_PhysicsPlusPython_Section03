@@ -25,11 +25,38 @@ print(a[4:])
 print(a[:5])
 print()
 
+print(a)
+print(a.find('love'))
+print()
 
+word = 'bull'
+print(word)
+print(word.replace('u','a'))
+print(word)
+print(word.replace('ull','last'))
+print(word)
+print()
 
+v = 'Python programming'
+print(v)
+print(v.replace('o','x'))
+print(v)
+print()
 
+print('lower case'.upper())
+print('CAPS LOCK'.lower())
+print('letter'.capitalize())
+print()
 
+print(a)
+print('v' in a)
+print()
 
-
+b = '13'
+d = 'word'
+f = '14h'
+print(b.isnumeric())
+print(d.isnumeric())
+print(f.isnumeric())
 
 
